@@ -1,0 +1,25 @@
+# coding=utf-8
+import types
+import time
+a = ["1","2","3","4","5","6","7","8","9","0"]
+b = ["1","2","3","4","5","6","7","8","9","0"]
+c = ["1","2","3","4","5","6","7","8","9","0"]
+d = ["1","2","3","4","5","6","7","8","9","0"]
+e = ["1","2","3","4","5","6","7","8","9","0"]
+f = ["1","2","3","4","5","6","7","8","9","0"]
+g = ["1","2","3","4","5","6","7","8","9","0"]
+h = ["1","2","3","4","5","6","7","8","9","0"]
+i = raw_input(unicode('请输入手机号码前三位：','utf-8').encode('gbk'));
+for k in range(len(h)):
+     for     m in range(len(g)):
+                for     o in range(len(f)):
+                        for     q in range(len(e)):
+                                for     s in range(len(d)):
+                                        for     u in range(len(c)):
+                                                for     w in range(len(b)):
+                                                        for     y in range(len(a)):
+                                                                        z=i+h[k]+g[m]+f[o]+e[q]+d[s]+c[u]+b[w]+a[y]
+                                                                        print i+h[k]+g[m]+f[o]+e[q]+d[s]+c[u]+b[w]+a[y]
+                                                                        f1=file("wifi.txt","w+")
+                                                                        f1.writelines(z)
+                                                                        f1.close()
